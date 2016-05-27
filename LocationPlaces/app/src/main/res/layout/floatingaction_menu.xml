@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom|right">
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|right"
+        fab:menu_icon="@drawable/ic_search"
+        fab:menu_colorNormal="@color/colorGreen"
+        android:id="@+id/fab_menu"
+        fab:menu_colorPressed="@color/colorLightGreen">
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fab_bank"
+            fab:fab_colorNormal="@color/colorGreen"
+            fab:fab_label="Bank"
+            fab:fab_colorPressed="@color/colorLightGreen"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_bus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_label="Bus"
+            fab:fab_colorNormal="@color/colorGreen"
+            fab:fab_colorPressed="@color/colorLightGreen"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_hospital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_label="Hospital"
+            fab:fab_colorNormal="@color/colorGreen"
+            fab:fab_colorPressed="@color/colorLightGreen"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_atm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_label="ATM"
+            fab:fab_colorNormal="@color/colorGreen"
+            fab:fab_colorPressed="@color/colorLightGreen"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_restaurant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_label="Restaurant"
+            fab:fab_colorNormal="@color/colorGreen"
+            fab:fab_colorPressed="@color/colorLightGreen"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_coffee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_label="Coffee"
+            fab:fab_colorNormal="@color/colorGreen"
+            fab:fab_colorPressed="@color/colorLightGreen"/>
+
+    </com.github.clans.fab.FloatingActionMenu>
+</LinearLayout>
